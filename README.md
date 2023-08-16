@@ -55,7 +55,6 @@ Es interesante notar que dentro de las 10 criptomonedas, las dos stablecoins pre
 
 - Python
 - Jupyter Notebook
-- Pandas
-- Matplotlib y Seaborn
+- Power BI
 - API CoinGecko
 

@@ -35,7 +35,9 @@ He realizado un análisis exploratorio de los datos para comprender mejor las te
 No hay valores nulos, porque los datos extraídos son desde el 22 de diciembre del 2020, recién desde esa fecha, Staked Ether registra precios en la API. Si hubiese tomado la fecha de lanzamiento de **Bitcoin** (2009), hubiesen habido muchos valores nulos para las otras criptomonedas. Esta fue la razón por la que opté tomar los registros ya desde el 22 de diciembre del 2020. <br>
 **Ver mayor detalle en el archivo [EDA.ipynb](EDA.ipynb)**
 
-## Análisis Detallado
+**Antes de profundizar en el análisis, es importante saber qué es una stablecoin**
+### ¿Qué es una stablecoin?
+Son activos digitales que son diseñados para mantener estable su valor en relación con algún activo externo, como una moneda fiduciaria como el dólar estadounidense por ejemplo. El objetivo principal de las stablecoins es mitigar la volatilidad inherente de muchas otras criptomonedas, como Bitcoin y Ethereum, y proporcionar a los usuarios una alternativa más predecible y confiable para almacenar valor y realizar transacciones.
 
 ### Tendencias de Precios
 
@@ -46,9 +48,6 @@ Tras analizar los datos, se observa que las criptomonedas seleccionadas han expe
 Es interesante notar que dentro de las 10 criptomonedas, las dos stablecoins presentaron un comportamiento distinto (**Tether** y **USD Coin**). Estas stablecoins se mantuvieron relativamente constantes en su valor (1 USD) a lo largo del período estudiado. Esto se debe a su naturaleza como activos diseñados para mantener un valor estable, respaldado generalmente por monedas fiduciarias.
 
 ![precios](/Imágenes/precios.png)
-
-### ¿Qué es una stablecoin?
-Son activos digitales que son diseñados para mantener estable su valor en relación con algún activo externo, como una moneda fiduciaria como el dólar estadounidense por ejemplo. El objetivo principal de las stablecoins es mitigar la volatilidad inherente de muchas otras criptomonedas, como Bitcoin y Ethereum, y proporcionar a los usuarios una alternativa más predecible y confiable para almacenar valor y realizar transacciones.
 
 **Finalmente elaboré un dashboard interactivo para tener un análisis aún más detallado de cada criptomoneda en el periodo de tiempo seleccionado y también elaboré 3 KPIs que están relacionados con la volatilidad, dominancia del mercado y la relación existente entre el volumen y la circulación, esto con el objetivo de recomendar la mejor oportunidad de inversión.**
 

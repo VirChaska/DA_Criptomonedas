@@ -11,7 +11,7 @@ En este proyecto, asumiré el rol de un Analista de Datos en una empresa de serv
 ## Recopilación de Datos
 
 Utilizando la **API CoinGecko**, he obtenido datos actualizados de las 10 criptomonedas con mayor capitalización de mercado. Estos datos incluyen precios históricos, volúmenes de operaciones y capitalización del mercado.
-También definí una función para obtener la *capitalización promedio* en el último año y efectivamente, las 10 criptomonedas con capitalización del momento son las que se posicionaron entre los primeros puestos. <br>
+También definí una función para obtener la *capitalización promedio* en el último año y efectivamente, las 10 criptomonedas con mayor capitalización del momento son las que se posicionaron entre los primeros puestos. <br>
 **Ver mayor detalle en el archivo [Extracción_datos.ipynb](Extracción_datos.ipynb)**
 
 **Criptomonedas con mayor capitalización promedio en el último año**
